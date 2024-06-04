@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "mss",
+    "version": "${version}-fabric",
+    "name": "Moog's Soaring Structures",
+    "description": "80+ structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!",
+    "authors": [
+        "FinnDog"
+    ],
+    "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/moogs-soaring-structures",
+        "sources": "https://github.com/FinnSetchell/MoogsSoaringStructures"
+    },
+    "license": "GNU Lesser General Public License v3.0",
+    "icon": "icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.finndog.mss.fabric.MSSFabric"
+        ]
+    },
+    "mixins": [
+        "mss-fabric.mixins.json",
+        "mss-common.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14",
+        "fabric": ">=0.83.0",
+        "minecraft": ">=1.20",
+        "java": ">=17"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
+  
