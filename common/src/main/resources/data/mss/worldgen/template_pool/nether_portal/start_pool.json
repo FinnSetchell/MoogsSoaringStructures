@@ -1,0 +1,22 @@
+{
+  "name": "mss:nether_portal/start_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+
+      "weight": 1,
+      "element": {
+
+        "location": "mss:nether_portal",
+
+        "processors": "mss:waterlogging_fix_processor",
+
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

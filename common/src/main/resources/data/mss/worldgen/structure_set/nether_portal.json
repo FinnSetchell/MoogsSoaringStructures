@@ -1,0 +1,20 @@
+{
+  "structures":[
+    {
+      "structure": "mss:nether_portal",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 754754652,
+
+    "spacing": 65,
+
+    "separation": 49,
+
+    "min_distance_from_world_origin": 400
+  }
+}
