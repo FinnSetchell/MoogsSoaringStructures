@@ -1,5 +1,5 @@
 {
-  "name": "mss:nether_portal/start_pool",
+  "name": "mss:nether_portal_start_pool",
 
   "fallback": "minecraft:empty",
 

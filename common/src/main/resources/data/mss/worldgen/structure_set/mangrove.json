@@ -1,7 +1,7 @@
 {
   "structures":[
     {
-      "structure": "mss:nether_portal",
+      "structure": "mss:mangrove",
       "weight": 1
     }
   ],
@@ -9,10 +9,10 @@
 
     "type": "mss:advanced_random_spread",
 
-    "salt": 889985412,
+    "salt": 111136452,
 
-    "spacing": 69,
+    "spacing": 38,
 
-    "separation": 52
+    "separation": 32
   }
 }
