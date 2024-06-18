@@ -1,0 +1,15 @@
+{
+  "name": "east_jungle_side_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mss:jungle_east_top",
+        "processors": "mss:waterlogging_fix_processor"
+      }
+    }
+  ]
+}
