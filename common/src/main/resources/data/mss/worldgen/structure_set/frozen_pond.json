@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:frozen_pond",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 336255419,
+
+    "spacing": 64,
+
+    "separation": 31
+  }
+}
