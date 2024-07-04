@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:volcano",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 689865874,
+
+    "spacing": 108,
+
+    "separation": 78
+  }
+}
