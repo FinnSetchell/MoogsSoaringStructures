@@ -24,11 +24,9 @@
         "mss-common.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=0.14",
-        "fabric": ">=0.83.0",
-        "minecraft": ">=1.20",
-        "java": ">=17"
-    },
+        "fabricloader": "*",
+        "minecraft": ">=1.21",
+        "fabric": "*"    },
     "suggests": {
         "another-mod": "*"
     }
