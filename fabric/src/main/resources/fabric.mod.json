@@ -26,7 +26,8 @@
     "depends": {
         "fabricloader": "*",
         "minecraft": ">=1.21",
-        "fabric": "*"    },
+        "fabric": "*"
+    },
     "suggests": {
         "another-mod": "*"
     }

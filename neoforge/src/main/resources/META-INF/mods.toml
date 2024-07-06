@@ -11,7 +11,7 @@ version="${version}" #mandatory
 displayName="Moog's Soaring Structures" #mandatory
 displayURL="https://www.curseforge.com/minecraft/mc-mods/moogs-soaring-structures"
 authors="FinnDog"
-credits="Thanks to Olver, the main builder as well as TelepathicGrunt for their structure mod template and rs!"
+credits="Thanks to all of the builders and contributors as well as TelepathicGrunt for their structure mod template and rs!"
 description = '''lots of structures made with vanilla blocks and entities bringing life to your world!
 Discover loot, enemies, & villagers along the way!
 

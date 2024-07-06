@@ -1,9 +1,8 @@
-package com.finndog.mvs.modinit.registry.neoforge;
+package com.finndog.mss.modinit.registry.neoforge;
 
-import com.finndog.mvs.modinit.registry.CustomRegistryLookup;
-import com.finndog.mvs.modinit.registry.ResourcefulRegistry;
+import com.finndog.mss.modinit.registry.CustomRegistryLookup;
+import com.finndog.mss.modinit.registry.ResourcefulRegistry;
 import net.minecraft.core.Registry;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
 import net.neoforged.neoforge.registries.NewRegistryEvent;
 import net.neoforged.neoforge.registries.RegistryBuilder;

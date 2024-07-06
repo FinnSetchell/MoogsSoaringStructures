@@ -10,6 +10,6 @@ public final class MSSTags {
     public static void initTags() {}
 
     public static TagKey<Structure> LARGER_LOCATE_SEARCH = TagKey.create(Registries.STRUCTURE,
-            new ResourceLocation(MSSCommon.MODID, "larger_locate_search"));
+            ResourceLocation.fromNamespaceAndPath(MSSCommon.MODID, "larger_locate_search"));
 
 }

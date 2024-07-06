@@ -13,8 +13,7 @@
         "structures.StructurePoolAccessor",
         "structures.StructureProcessorAccessor",
         "structures.StructureTemplateManagerAccessor",
-        "structures.TemplateAccessor",
-        "world.WorldGenRegionAccessor"
+        "structures.TemplateAccessor"
     ],
     "client": [
     ],

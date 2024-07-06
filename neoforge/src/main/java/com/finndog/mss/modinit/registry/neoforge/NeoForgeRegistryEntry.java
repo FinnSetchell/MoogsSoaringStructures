@@ -1,6 +1,6 @@
-package com.finndog.mvs.modinit.registry.neoforge;
+package com.finndog.mss.modinit.registry.neoforge;
 
-import com.finndog.mvs.modinit.registry.RegistryEntry;
+import com.finndog.mss.modinit.registry.RegistryEntry;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.registries.DeferredHolder;
 

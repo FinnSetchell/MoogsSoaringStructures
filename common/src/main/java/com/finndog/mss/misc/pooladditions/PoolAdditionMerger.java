@@ -121,7 +121,7 @@ public final class PoolAdditionMerger {
     }
 
     private static void checkIfPieceExists(AdditionalStructureTemplatePool feedingPool, StructureTemplateManager structureTemplateManager, ResourceLocation pieceRL) {
-        ResourceLocation resourcelocation = new ResourceLocation(pieceRL.getNamespace(), "structures/" + pieceRL.getPath() + ".nbt");
+        ResourceLocation resourcelocation = ResourceLocation.fromNamespaceAndPath(pieceRL.getNamespace(), "structures/" + pieceRL.getPath() + ".nbt");
         try {
             InputStream inputstream = ((StructureTemplateManagerAccessor) structureTemplateManager).mss_getResourceManager().open(resourcelocation);
             if (inputstream.available() == 0 || inputstream.read(new byte[1]) == -1) {
@@ -151,7 +151,7 @@ public final class PoolAdditionMerger {
 
         public static final Codec<AdditionalStructureTemplatePool> DIRECT_CODEC = RecordCodecBuilder.create(instance -> instance.group(
                 ResourceLocation.CODEC.fieldOf("name").forGetter(structureTemplatePool -> structureTemplatePool.name),
-                ExtraCodecs.lazyInitializedCodec(StructurePoolAccessor.getCODEC_REFERENCE()::getValue).fieldOf("fallback").forGetter(StructureTemplatePool::getFallback),
+                Codec.lazyInitialized(StructurePoolAccessor.getCODEC_REFERENCE()::getValue).fieldOf("fallback").forGetter(StructureTemplatePool::getFallback),
                 EXPANDED_POOL_ENTRY_CODEC.listOf().fieldOf("elements").forGetter(structureTemplatePool -> structureTemplatePool.rawTemplatesWithConditions)
         ).apply(instance, AdditionalStructureTemplatePool::new));
 

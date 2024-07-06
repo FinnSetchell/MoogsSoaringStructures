@@ -1,6 +1,6 @@
-package com.finndog.mvs.modinit.registry.neoforge;
+package com.finndog.mss.modinit.registry.neoforge;
 
-import com.finndog.mvs.modinit.registry.CustomRegistryLookup;
+import com.finndog.mss.modinit.registry.CustomRegistryLookup;
 import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import org.jetbrains.annotations.NotNull;

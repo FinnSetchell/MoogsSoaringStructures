@@ -1,38 +1,39 @@
-package com.finndog.mvs.neoforge;
+package com.finndog.mss.neoforge;
 
-import com.finndog.mvs.MVSCommon;
-import com.finndog.mvs.events.lifecycle.RegisterReloadListenerEvent;
-import com.finndog.mvs.events.lifecycle.ServerGoingToStartEvent;
-import com.finndog.mvs.events.lifecycle.ServerGoingToStopEvent;
-import com.finndog.mvs.events.lifecycle.SetupEvent;
-import com.finndog.mvs.modinit.registry.neoforge.ResourcefulRegistriesImpl;
+import com.finndog.mss.MSSCommon;
+import com.finndog.mss.events.lifecycle.RegisterReloadListenerEvent;
+import com.finndog.mss.events.lifecycle.ServerGoingToStartEvent;
+import com.finndog.mss.events.lifecycle.ServerGoingToStopEvent;
+import com.finndog.mss.events.lifecycle.SetupEvent;
+import com.finndog.mss.modinit.registry.neoforge.ResourcefulRegistriesImpl;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
 import net.neoforged.neoforge.event.server.ServerStoppingEvent;
-import net.neoforged.neoforge.event.village.VillagerTradesEvent;
-import net.neoforged.neoforge.event.village.WandererTradesEvent;
 
 
-@Mod(MVSCommon.MODID)
-public class MVSNeoforge {
+@Mod(MSSCommon.MODID)
+public class MSSNeoforge {
 
-    public MVSNeoforge(IEventBus modEventBus) {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(EventPriority.NORMAL, ResourcefulRegistriesImpl::onRegisterForgeRegistries);
+    public static IEventBus modEventBusTempHolder = null;
 
-        MVSCommon.init();
+    public MSSNeoforge(IEventBus modEventBus) {
+        modEventBus.addListener(EventPriority.NORMAL, ResourcefulRegistriesImpl::onRegisterForgeRegistries);
+
+        modEventBusTempHolder = modEventBus;
+        MSSCommon.init();
+        modEventBusTempHolder = null;
 
         IEventBus eventBus = NeoForge.EVENT_BUS;
 
-        modEventBus.addListener(MVSNeoforge::onSetup);
-        eventBus.addListener(MVSNeoforge::onServerStarting);
-        eventBus.addListener(MVSNeoforge::onServerStopping);
-        eventBus.addListener(MVSNeoforge::onAddReloadListeners);
+        modEventBus.addListener(MSSNeoforge::onSetup);
+        eventBus.addListener(MSSNeoforge::onServerStarting);
+        eventBus.addListener(MSSNeoforge::onServerStopping);
+        eventBus.addListener(MSSNeoforge::onAddReloadListeners);
     }
 
     private static void onSetup(FMLCommonSetupEvent event) {

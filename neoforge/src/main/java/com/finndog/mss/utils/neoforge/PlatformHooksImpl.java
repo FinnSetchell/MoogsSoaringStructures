@@ -1,4 +1,4 @@
-package com.finndog.mvs.utils.neoforge;
+package com.finndog.mss.utils.neoforge;
 
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLEnvironment;

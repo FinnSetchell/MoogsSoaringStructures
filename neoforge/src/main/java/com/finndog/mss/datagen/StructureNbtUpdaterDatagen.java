@@ -1,6 +1,6 @@
-package com.finndog.mvs.datagen;
+package com.finndog.mss.datagen;
 
-import com.finndog.mvs.MVSCommon;
+import com.finndog.mss.MSSCommon;
 import net.minecraft.data.DataGenerator;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
@@ -8,7 +8,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 // Source: https://github.com/BluSunrize/ImmersiveEngineering/blob/1.20.1/src/datagen/java/blusunrize/immersiveengineering/data/IEDataGenerator.java
-@Mod.EventBusSubscriber(modid = MVSCommon.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(modid = MSSCommon.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class StructureNbtUpdaterDatagen {
 
     @SubscribeEvent
@@ -18,7 +18,7 @@ public class StructureNbtUpdaterDatagen {
         final var output = gen.getPackOutput();
 
         if (event.includeServer()) {
-            gen.addProvider(true, new StructureNbtUpdater("structures", MVSCommon.MODID, exHelper, output));
+            gen.addProvider(true, new StructureNbtUpdater("structures", MSSCommon.MODID, exHelper, output));
         }
     }
 }

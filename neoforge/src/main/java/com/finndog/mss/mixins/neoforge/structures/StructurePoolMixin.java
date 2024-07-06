@@ -1,4 +1,4 @@
-package com.finndog.mvs.mixins.neoforge.structures;
+package com.finndog.mss.mixins.neoforge.structures;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
@@ -21,7 +21,7 @@ public class StructurePoolMixin {
             require = 0,
             remap = false
     )
-    private static Codec<Integer> mvs_increaseWeightLimit(int minRange, int maxRange, Operation<Codec<Integer>> original) {
+    private static Codec<Integer> mss_increaseWeightLimit(int minRange, int maxRange, Operation<Codec<Integer>> original) {
         return original.call(minRange, 5000);
     }
 }
