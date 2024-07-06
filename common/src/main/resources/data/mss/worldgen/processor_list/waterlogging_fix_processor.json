@@ -1,7 +1,0 @@
-{
-  "processors": [
-    {
-      "processor_type": "mss:waterlogging_fix_processor"
-    }
-  ]
-}

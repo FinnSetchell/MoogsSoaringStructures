@@ -2,6 +2,7 @@ package com.finndog.mss.world.structures.placements;
 
 import com.finndog.mss.modinit.MSSStructurePlacementType;
 import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;

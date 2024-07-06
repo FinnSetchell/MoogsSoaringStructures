@@ -155,6 +155,7 @@ public final class PoolAdditionMerger {
                 EXPANDED_POOL_ENTRY_CODEC.listOf().fieldOf("elements").forGetter(structureTemplatePool -> structureTemplatePool.rawTemplatesWithConditions)
         ).apply(instance, AdditionalStructureTemplatePool::new));
 
+
         protected final List<ExpandedPoolEntry> rawTemplatesWithConditions;
         protected final ResourceLocation name;
 

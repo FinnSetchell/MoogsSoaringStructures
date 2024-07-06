@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mss:desert_pyramid_top",
-        "processors": "mss:waterlogging_fix_processor"
+        "processors": "minecraft:empty"
       }
     }
   ]

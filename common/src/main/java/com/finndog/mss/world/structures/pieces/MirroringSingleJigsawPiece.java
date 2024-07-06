@@ -4,6 +4,7 @@ import com.finndog.mss.mixins.structures.SinglePoolElementAccessor;
 import com.finndog.mss.modinit.MSSStructurePieces;
 import com.mojang.datafixers.util.Either;
 import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import net.minecraft.Util;

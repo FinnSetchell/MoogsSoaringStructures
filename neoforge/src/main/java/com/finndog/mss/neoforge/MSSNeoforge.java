@@ -1,37 +1,36 @@
-package com.finndog.mss.forge;
+package com.finndog.mss.neoforge;
 
 import com.finndog.mss.MSSCommon;
 import com.finndog.mss.events.lifecycle.RegisterReloadListenerEvent;
 import com.finndog.mss.events.lifecycle.ServerGoingToStartEvent;
 import com.finndog.mss.events.lifecycle.ServerGoingToStopEvent;
 import com.finndog.mss.events.lifecycle.SetupEvent;
-import com.finndog.mss.modinit.registry.forge.ResourcefulRegistriesImpl;
-import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.AddReloadListenerEvent;
-import net.minecraftforge.event.server.ServerAboutToStartEvent;
-import net.minecraftforge.event.server.ServerStoppingEvent;
-import net.minecraftforge.eventbus.api.EventPriority;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import com.finndog.mss.modinit.registry.neoforge.ResourcefulRegistriesImpl;
+import net.neoforged.bus.api.EventPriority;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.event.AddReloadListenerEvent;
+import net.neoforged.neoforge.event.server.ServerAboutToStartEvent;
+import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 
 
 @Mod(MSSCommon.MODID)
-public class MSSForge {
+public class MSSNeoforge {
 
-    public MSSForge() {
+    public MSSNeoforge(IEventBus modEventBus) {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(EventPriority.NORMAL, ResourcefulRegistriesImpl::onRegisterForgeRegistries);
 
         MSSCommon.init();
 
-        IEventBus eventBus = MinecraftForge.EVENT_BUS;
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus eventBus = NeoForge.EVENT_BUS;
 
-        modEventBus.addListener(MSSForge::onSetup);
-        eventBus.addListener(MSSForge::onServerStarting);
-        eventBus.addListener(MSSForge::onServerStopping);
-        eventBus.addListener(MSSForge::onAddReloadListeners);
+        modEventBus.addListener(MSSNeoforge::onSetup);
+        eventBus.addListener(MSSNeoforge::onServerStarting);
+        eventBus.addListener(MSSNeoforge::onServerStopping);
+        eventBus.addListener(MSSNeoforge::onAddReloadListeners);
     }
 
     private static void onSetup(FMLCommonSetupEvent event) {

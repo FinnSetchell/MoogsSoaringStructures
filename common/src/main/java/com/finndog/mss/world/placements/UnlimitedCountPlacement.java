@@ -2,6 +2,7 @@ package com.finndog.mss.world.placements;
 
 import com.finndog.mss.modinit.MSSPlacements;
 import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.valueproviders.ConstantInt;
