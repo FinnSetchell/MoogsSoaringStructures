@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:palm_island",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 998651362,
+
+    "spacing": 82,
+
+    "separation": 46
+  }
+}

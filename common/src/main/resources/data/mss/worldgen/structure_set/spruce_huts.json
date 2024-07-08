@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:spruce_huts",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 225114645,
+
+    "spacing": 94,
+
+    "separation": 48
+  }
+}
