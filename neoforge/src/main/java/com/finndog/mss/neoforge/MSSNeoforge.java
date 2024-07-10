@@ -8,6 +8,7 @@ import com.finndog.mss.events.lifecycle.SetupEvent;
 import com.finndog.mss.modinit.registry.neoforge.ResourcefulRegistriesImpl;
 import net.neoforged.bus.api.EventPriority;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -21,16 +22,16 @@ public class MSSNeoforge {
 
     public static IEventBus modEventBusTempHolder = null;
 
-    public MSSNeoforge(IEventBus modEventBus) {
+    public MSSNeoforge(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(EventPriority.NORMAL, ResourcefulRegistriesImpl::onRegisterForgeRegistries);
 
         modEventBusTempHolder = modEventBus;
         MSSCommon.init();
         modEventBusTempHolder = null;
 
-        IEventBus eventBus = NeoForge.EVENT_BUS;
-
         modEventBus.addListener(MSSNeoforge::onSetup);
+
+        IEventBus eventBus = NeoForge.EVENT_BUS;
         eventBus.addListener(MSSNeoforge::onServerStarting);
         eventBus.addListener(MSSNeoforge::onServerStopping);
         eventBus.addListener(MSSNeoforge::onAddReloadListeners);
