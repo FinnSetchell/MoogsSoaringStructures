@@ -1,5 +1,5 @@
 {
-  "name": "mss:desert_well_start_pool",
+  "name": "mss:tree_1_start_pool",
 
   "fallback": "minecraft:empty",
 
@@ -9,7 +9,7 @@
       "weight": 1,
       "element": {
 
-        "location": "mss:desert_well",
+        "location": "mss:tree_1",
 
         "processors": "minecraft:empty",
 
