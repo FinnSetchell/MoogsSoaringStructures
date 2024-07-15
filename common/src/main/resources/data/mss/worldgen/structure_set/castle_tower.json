@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:castle_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 333265012,
+
+    "spacing": 94,
+
+    "separation": 52
+  }
+}
