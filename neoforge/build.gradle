@@ -7,6 +7,24 @@ architectury {
     neoForge()
 }
 
+loom {
+    accessWidenerPath = project(":common").loom.accessWidenerPath
+
+    neoForge {
+        runs {
+            all {}
+
+            data {
+                data()
+                programArgs("--all", "--mod", "mes")
+                programArgs("--existing", project(":common").file("src/main/resources").absolutePath)
+                programArgs("--output", project(":common").file("src/main/generated/resources").absolutePath)
+                all {}
+            }
+        }
+    }
+}
+
 configurations {
     common
     shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
@@ -25,7 +43,7 @@ dependencies {
 processResources {
     inputs.property "version", project.version
 
-    filesMatching("META-INF/neoforge.mods.toml") {
+    filesMatching("META-INF/mods.toml") {
         expand "version": project.version
     }
 }
@@ -42,7 +60,7 @@ remapJar {
     inputFile.set shadowJar.archiveFile
     dependsOn shadowJar
     archiveClassifier.set(null)
-    atAccessWideners.add("mss.accesswidener") // this is a path inside the mod jar
+    atAccessWideners.add("mes.accesswidener") // this is a path inside the mod jar
 }
 
 jar {
@@ -60,4 +78,3 @@ components.java {
         skip()
     }
 }
-

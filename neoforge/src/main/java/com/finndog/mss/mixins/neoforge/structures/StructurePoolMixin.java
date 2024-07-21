@@ -21,7 +21,7 @@ public class StructurePoolMixin {
             require = 0,
             remap = false
     )
-    private static Codec<Integer> mvs_increaseWeightLimit(int minRange, int maxRange, Operation<Codec<Integer>> original) {
+    private static Codec<Integer> mss_increaseWeightLimit(int minRange, int maxRange, Operation<Codec<Integer>> original) {
         return original.call(minRange, 5000);
     }
 }
