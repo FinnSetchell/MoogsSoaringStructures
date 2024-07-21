@@ -11,7 +11,7 @@
 
         "location": "mss:spruce_huts",
 
-        "processors": "mss:waterlogging_fix_processor",
+        "processors": "minecraft:empty",
 
         "projection": "rigid",
 

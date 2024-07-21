@@ -1,0 +1,15 @@
+{
+  "name": "diorite_house_side_2_side_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mss:diorite_house_side_2",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
