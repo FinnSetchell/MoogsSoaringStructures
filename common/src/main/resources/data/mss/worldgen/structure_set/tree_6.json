@@ -1,0 +1,18 @@
+{
+  "structures":[
+    {
+      "structure": "mss:tree_6",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "type": "mss:advanced_random_spread",
+
+    "salt": 554551525,
+
+    "spacing": 142,
+
+    "separation": 67
+  }
+}
