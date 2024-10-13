@@ -40,7 +40,6 @@ public class MSSCommon {
     }
 
     private static void serverAboutToStart(final ServerGoingToStartEvent event) {
-        PoolAdditionMerger.mergeAdditionPools(event);
 
         AsyncLocator.handleServerAboutToStartEvent();
     }
