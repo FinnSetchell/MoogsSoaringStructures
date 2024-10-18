@@ -4,7 +4,6 @@ import com.finndog.mss.events.lifecycle.RegisterReloadListenerEvent;
 import com.finndog.mss.events.lifecycle.ServerGoingToStartEvent;
 import com.finndog.mss.events.lifecycle.ServerGoingToStopEvent;
 import com.finndog.mss.events.lifecycle.SetupEvent;
-import com.finndog.mss.misc.pooladditions.PoolAdditionMerger;
 import com.finndog.mss.modinit.MSSPlacements;
 import com.finndog.mss.modinit.MSSProcessors;
 import com.finndog.mss.modinit.MSSStructurePieces;
