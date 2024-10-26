@@ -38,4 +38,5 @@ public class NeoForgeResourcefulRegistry<T> implements ResourcefulRegistry<T> {
     public void init() {
         register.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
+
 }
