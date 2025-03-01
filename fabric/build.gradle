@@ -77,7 +77,6 @@ publishMods {
     modrinth {
         accessToken = providers.environmentVariable("MODRINTH_API_KEY")
         projectId = "RJCLIx7k"
-        minecraftVersions.add("1.21")
         minecraftVersionRange {
             start = "1.21"
             end = "1.21.1"
@@ -87,7 +86,6 @@ publishMods {
     curseforge {
         accessToken = providers.environmentVariable("CURSEFORGE_API_KEY")
         projectId = "1040210"
-        minecraftVersions.add("1.21")
         serverRequired = true
         minecraftVersionRange {
             start = "1.21"
