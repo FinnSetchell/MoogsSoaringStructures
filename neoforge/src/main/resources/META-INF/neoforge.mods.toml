@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[2,)" #mandatory
+loaderVersion="[4,)" #mandatory
 issueTrackerURL="https://github.com/FinnSetchell/MoogsSoaringStructures/issues" #optional
 license="GNU Lesser General Public License v3.0"
 
@@ -27,7 +27,7 @@ license="GNU Lesser General Public License v3.0"
 [[dependencies.mss]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21,)"
+    versionRange="[1.21.5,)"
 
 [[dependencies.mss]]
     modId="neoforge"
