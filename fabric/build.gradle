@@ -70,6 +70,9 @@ String changelogtext = changeLog.exists() ? changeLog.text : ""
 publishMods {
     file = remapJar.archiveFile
     type = STABLE
+
+    displayName = "MVS ${project.version} [FABRIC]"
+
     modLoaders.add("fabric")
     changelog = changelogtext
 
