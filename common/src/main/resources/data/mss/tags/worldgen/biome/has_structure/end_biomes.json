@@ -5,6 +5,10 @@
   "values": [
     "minecraft:end_highlands",
     {
+      "id": "#c:is_end",
+      "required": false
+    },
+    {
       "id": "byg:imparius_grove",
       "required": false
     },

@@ -2,10 +2,10 @@
 # Changelog
 
 ### Added
-- 
+- added c biome tags
 
 ### Changed
-- updated to 1.21.5
+- adjusted spacing values to increase the rarity of all structures
 
 ### Fixed
-- replaced "forge" tags with "c"
+- fixed broken nbt's

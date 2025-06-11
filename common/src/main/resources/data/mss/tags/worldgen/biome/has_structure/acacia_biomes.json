@@ -5,6 +5,10 @@
   "values": [
     "minecraft:savanna",
     {
+      "id": "#c:is_savanna",
+      "required": false
+    },
+    {
       "id": "byg:baobab_savanna",
       "required": false
     },

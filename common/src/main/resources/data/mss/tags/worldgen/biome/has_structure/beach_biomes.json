@@ -5,6 +5,10 @@
   "values": [
     "#minecraft:is_beach",
     {
+      "id": "#c:is_beach",
+      "required": false
+    },
+    {
       "id": "byg:rainbow_beach",
       "required": false
     },

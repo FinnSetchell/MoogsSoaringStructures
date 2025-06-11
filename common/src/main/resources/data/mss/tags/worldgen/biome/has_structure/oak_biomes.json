@@ -5,6 +5,10 @@
   "values": [
     "minecraft:forest",
     {
+      "id": "#c:is_forest",
+      "required": false
+    },
+    {
       "id": "byg:firecracker_shrubland",
       "required": false
     },
