@@ -70,7 +70,7 @@ publishMods {
     changelog = changelogtext
     type = STABLE
 
-    displayName = "MVS ${project.version} [NEOFORGE]"
+    displayName = "MSS ${project.version} [NEOFORGE]"
 
     modLoaders.add("neoforge")
 

@@ -71,7 +71,7 @@ publishMods {
     file = remapJar.archiveFile
     type = STABLE
 
-    displayName = "MVS ${project.version} [FABRIC]"
+    displayName = "MSS ${project.version} [FABRIC]"
 
     modLoaders.add("fabric")
     changelog = changelogtext
