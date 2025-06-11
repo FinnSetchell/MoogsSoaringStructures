@@ -5,6 +5,10 @@
   "values": [
     "minecraft:nether_wastes",
     {
+      "id": "#c:is_nether",
+      "required": false
+    },
+    {
       "id": "byg:magma_wastes",
       "required": false
     }

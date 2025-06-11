@@ -5,6 +5,10 @@
   "values": [
     "minecraft:snowy_taiga",
     {
+      "id": "#c:is_snowy",
+      "required": false
+    },
+    {
       "id": "byg:frosted_taiga",
       "required": false
     },

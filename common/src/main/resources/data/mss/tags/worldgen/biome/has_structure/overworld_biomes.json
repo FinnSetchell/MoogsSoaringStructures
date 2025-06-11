@@ -11,6 +11,34 @@
     "minecraft:birch_forest",
     "minecraft:flower_forest",
     {
+      "id": "#c:is_badlands",
+      "required": false
+    },
+    {
+      "id": "#c:is_beach",
+      "required": false
+    },
+    {
+      "id": "#c:is_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_hill",
+      "required": false
+    },
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#c:is_plains",
+      "required": false
+    },
+    {
+      "id": "#c:is_taiga",
+      "required": false
+    },
+    {
       "id": "byg:firecracker_shrubland",
       "required": false
     },

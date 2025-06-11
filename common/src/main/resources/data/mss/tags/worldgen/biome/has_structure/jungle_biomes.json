@@ -5,6 +5,10 @@
   "values": [
     "#minecraft:is_jungle",
     {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    {
       "id": "byg:guiana_shield",
       "required": false
     },
