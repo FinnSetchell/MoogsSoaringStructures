@@ -6,6 +6,10 @@
     "minecraft:birch_forest",
     "minecraft:forest",
     {
+      "id": "#c:is_birch_forest",
+      "required": false
+    },
+    {
       "id": "byg:seasonal_birch_forest",
       "required": false
     },

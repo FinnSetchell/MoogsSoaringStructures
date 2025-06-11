@@ -1,6 +1,6 @@
 plugins {
     id "com.github.johnrengelman.shadow" version "7.1.2"
-    id "me.modmuss50.mod-publish-plugin" version "0.8.4"
+//    id "me.modmuss50.mod-publish-plugin" version "0.8.4"
 }
 
 architectury {
@@ -65,29 +65,31 @@ components.java {
 File changeLog = rootProject.file("CHANGELOG.md")
 String changelogtext = changeLog.exists() ? changeLog.text : ""
 
-publishMods {
-    file = remapJar.archiveFile
-    changelog = changelogtext
-    type = STABLE
-    modLoaders.add("neoforge")
-
-    modrinth {
-        accessToken = providers.environmentVariable("MODRINTH_API_KEY")
-        projectId = "RJCLIx7k"
-        minecraftVersionRange {
-            start = "1.21"
-            end = "1.21.1"
-        }
-    }
-
-    curseforge {
-        accessToken = providers.environmentVariable("CURSEFORGE_API_KEY")
-        projectId = "1040210"
-        serverRequired = true
-        minecraftVersionRange {
-            start = "1.21"
-            end = "1.21.1"
-        }
-    }
-
-}
+//publishMods {
+//    file = remapJar.archiveFile
+//    changelog = changelogtext
+//    type = STABLE
+//    displayName = "MSS ${project.version} [NEOFORGE]"
+//
+//    modLoaders.add("neoforge")
+//
+//    modrinth {
+//        accessToken = providers.environmentVariable("MODRINTH_API_KEY")
+//        projectId = "RJCLIx7k"
+//        minecraftVersionRange {
+//            start = "1.21"
+//            end = "1.21.1"
+//        }
+//    }
+//
+//    curseforge {
+//        accessToken = providers.environmentVariable("CURSEFORGE_API_KEY")
+//        projectId = "1040210"
+//        serverRequired = true
+//        minecraftVersionRange {
+//            start = "1.21"
+//            end = "1.21.1"
+//        }
+//    }
+//
+//}

@@ -5,6 +5,10 @@
   "values": [
     "minecraft:flower_forest",
     {
+      "id": "#c:is_flower_forest",
+      "required": false
+    },
+    {
       "id": "byg:allium_fields",
       "required": false
     },
