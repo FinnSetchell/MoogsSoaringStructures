@@ -5,7 +5,8 @@
 - 
 
 ### Changed
-- Updated for 1.21.9
+- Updated for 1.21.10
+- Removed unused loot tables
 
 ### Fixed
-- 
+- chain loot table error
