@@ -1,12 +1,12 @@
 {
-  "type": "mss:mss_generic_jigsaw_structure",
+  "type": "moogs_structures:moogs_structures_generic_jigsaw_structure",
 
   "start_pool": "mss:cherry_river_start_pool",
 
   "size": 2,
 
-  "biomes": "#mss:has_structure/cherry_biomes",
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "biomes": "#mss:has_structure/cherry_biomes",
 
   "step": "surface_structures",
   "terrain_adaptation": "none",

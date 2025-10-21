@@ -1,5 +1,5 @@
 {
-  "type": "mss:mss_generic_jigsaw_structure",
+  "type": "moogs_structures:moogs_structures_generic_jigsaw_structure",
 
   "start_pool": "mss:tree_2_start_pool",
 
