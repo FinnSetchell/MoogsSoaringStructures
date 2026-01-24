@@ -1,2 +1,3 @@
 # Changelog
-- Updated for 1.21.11
+v2.0.1
+- Fixed loot in calcite house
