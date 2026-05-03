@@ -1,7 +1,4 @@
 {
-  "replace": false,
-
-  "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
   "values": [
     "minecraft:birch_forest",
     "minecraft:forest",
@@ -27,6 +24,10 @@
     },
     {
       "id": "byg:zelkova_forest",
+      "required": false
+    },
+    {
+      "id": "#c:birch_forest",
       "required": false
     }
   ]

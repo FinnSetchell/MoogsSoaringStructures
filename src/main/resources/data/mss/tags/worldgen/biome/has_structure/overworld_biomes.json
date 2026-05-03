@@ -1,8 +1,6 @@
 {
-  "replace": false,
-
-  "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
   "values": [
+    "#minecraft:is_overworld",
     "#minecraft:is_jungle",
     "#minecraft:is_taiga",
     "minecraft:plains",
@@ -37,16 +35,16 @@
     {
       "id": "biomesoplenty:seasonal_forest",
       "required": false
-    },    
-	  {
+    },
+    {
       "id": "biomesoplenty:orchard",
       "required": false
     },
-	  {
+    {
       "id": "biomesoplenty:seasonal_pumpkin_patch",
       "required": false
     },
-	  {
+    {
       "id": "biomesoplenty:dead_forest",
       "required": false
     },
@@ -60,6 +58,14 @@
     },
     {
       "id": "biomesoplenty:field",
+      "required": false
+    },
+    {
+      "id": "#c:in_overworld",
+      "required": false
+    },
+    {
+      "id": "#forge:is_overworld",
       "required": false
     }
   ]
