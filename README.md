@@ -2,11 +2,11 @@
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D8LKA5N)
 
-[![Discord](https://img.shields.io/discord/869218732650688543?color=14822e&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
+[![Discord](https://img.shields.io/discord/869218732650688543?color=14822d&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
 
-[![My projects](https://img.shields.io/badge/CurseForge-projects-14822e?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
+[![My projects](https://img.shields.io/badge/CurseForge-projects-14822d?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
 
-[![My projects](https://img.shields.io/badge/Modrinth-projects-14822e?style=for-the-badge&logo=modrinth)](https://modrinth.com/user/FinnSetchell)
+[![My projects](https://img.shields.io/badge/Modrinth-projects-14822d?style=for-the-badge&logo=modrinth)](https://modrinth.com/user/FinnSetchell)
 
 ![Overview](https://www.bisecthosting.com/images/CF/Moogs_Soaring_Structure/BH_MSS_overview.webp)
 
@@ -22,7 +22,7 @@ To see some of the structures, head to the [images tab](https://www.curseforge.c
 Every aspect of the mod is customizable using datapacks. A template with full instructions can be found [here](https://www.curseforge.com/minecraft/data-packs/mss-moogs-soaring-structure-config-pack)
 
 ![features](https://www.bisecthosting.com/images/CF/Moogs_Soaring_Structure/BH_MSS_features.webp)
-![collage](https://media.forgecdn.net/attachments/description/1040210/description_84b68622-1f45-4dd0-b110-ff18e67252ac.png)
+![collage](https://media.forgecdn.net/attachments/description/1040210/description_84b68622-1f45-4dd0-b110-14822d7252ac.png)
 
 ### VIDEOS
 

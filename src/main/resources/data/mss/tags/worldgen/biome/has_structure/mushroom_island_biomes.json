@@ -1,13 +1,6 @@
 {
-  "replace": false,
-
-  "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
   "values": [
     "minecraft:mushroom_fields",
-    {
-      "id": "#c:is_mushroom",
-      "required": false
-    },
     {
       "id": "biomesoplenty:fungal_field",
       "required": false
@@ -18,6 +11,10 @@
     },
     {
       "id": "biomesoplenty:mystic_grove",
+      "required": false
+    },
+    {
+      "id": "#c:is_mushroom",
       "required": false
     }
   ]
