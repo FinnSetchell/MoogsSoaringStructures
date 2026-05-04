@@ -10,6 +10,8 @@
 
 ### Changed
 - Overhauled all loot tables to have better items, better variety, actually worth looting
+- Removed unnecessary terrain checks from islands
+- Improved biome tags
 
 ### Fixed
 - Fixed several structures breaking on older 1.21.x versions
