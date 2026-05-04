@@ -5,9 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_9/large_tower_top",
+        "locations": {
+          "1.21-1.21.8": "mss:large_tower_top",
+          "1.21.9-1.21.11": "mss:1_21_9/large_tower_top"
+        },
         "projection": "rigid",
-        "location": "mss:large_tower_top",
         "processors": "minecraft:empty"
       }
     }
