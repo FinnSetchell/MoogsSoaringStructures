@@ -62,13 +62,11 @@
             },
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 30,
                 "max": 50
-              },
-              "options": "#minecraft:on_random_loot"
+              }
             }
           ]
         },
@@ -125,13 +123,11 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 30,
                 "max": 50
-              },
-              "options": "#minecraft:on_random_loot"
+              }
             }
           ]
         },
@@ -142,7 +138,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:swift_sneak"
+              "enchantments": ["minecraft:swift_sneak"]
             }
           ]
         },
@@ -217,13 +213,11 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "options": "#minecraft:on_random_loot",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
                 "max": 39
-              },
-              "options": "#minecraft:on_random_loot"
+              }
             }
           ]
         },
@@ -301,8 +295,7 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
+              "function": "minecraft:enchant_randomly"
             }
           ]
         },
@@ -372,6 +365,5 @@
         }
       ]
     }
-  ],
-  "random_sequence": "minecraft:chests/ancient_city"
+  ]
 }
