@@ -1,13 +1,6 @@
 {
   "values": [
     "#minecraft:is_overworld",
-    "#minecraft:is_jungle",
-    "#minecraft:is_taiga",
-    "minecraft:plains",
-    "minecraft:savanna",
-    "minecraft:forest",
-    "minecraft:birch_forest",
-    "minecraft:flower_forest",
     {
       "id": "byg:firecracker_shrubland",
       "required": false
