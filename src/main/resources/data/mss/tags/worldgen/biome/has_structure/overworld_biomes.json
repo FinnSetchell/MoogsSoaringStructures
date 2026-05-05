@@ -56,6 +56,6 @@
     {
       "id": "#c:in_overworld",
       "required": false
-    },
+    }
   ]
 }
