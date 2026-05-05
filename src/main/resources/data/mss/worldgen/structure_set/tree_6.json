@@ -15,6 +15,6 @@
 
     "separation": 67,
 
-    "min_distance_from_world_origin": 150
+    "min_distance_from_world_origin": 250
   }
 }
