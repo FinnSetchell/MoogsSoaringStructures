@@ -13,6 +13,8 @@
 
     "spacing": 127,
 
-    "separation": 73
+    "separation": 73,
+
+    "min_distance_from_world_origin": 150
   }
 }
