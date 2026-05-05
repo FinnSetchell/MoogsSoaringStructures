@@ -32,8 +32,14 @@ jobs:
       - name: Install validator dependencies
         run: pip install -r validator/requirements.txt
 
+      - name: Cache registry data
+        uses: actions/cache@v4
+        with:
+          path: validator/cache
+          key: registry-cache-${{ hashFiles('project/validator.json') }}
+
       - name: Run validator
-        run: python validator/validator.py --config project/validator.json --project-root project
+        run: python -u validator/validator.py --config project/validator.json --project-root project
 
       - name: Run NBT check
         working-directory: project
