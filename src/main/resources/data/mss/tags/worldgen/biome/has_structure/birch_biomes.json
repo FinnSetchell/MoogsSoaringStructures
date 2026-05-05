@@ -31,9 +31,5 @@
       "id": "#c:birch_forest",
       "required": false
     },
-    {
-      "id": "#forge:is_birch_forest",
-      "required": false
-    }
   ]
 }

@@ -5,13 +5,5 @@
       "id": "#c:badlands",
       "required": false
     },
-    {
-      "id": "#forge:is_badlands",
-      "required": false
-    },
-    {
-      "id": "#forge:is_mesa",
-      "required": false
-    }
   ]
 }

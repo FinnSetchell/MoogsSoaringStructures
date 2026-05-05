@@ -17,9 +17,5 @@
       "id": "#c:taiga",
       "required": false
     },
-    {
-      "id": "#forge:is_taiga",
-      "required": false
-    }
   ]
 }

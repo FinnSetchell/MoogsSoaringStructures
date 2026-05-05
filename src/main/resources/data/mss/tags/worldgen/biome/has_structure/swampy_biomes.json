@@ -1,6 +1,7 @@
 {
   "values": [
-    "#minecraft:is_swamp",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
     {
       "id": "byg:bayou",
       "required": false
@@ -29,9 +30,5 @@
       "id": "#c:swamp",
       "required": false
     },
-    {
-      "id": "#forge:is_swamp",
-      "required": false
-    }
   ]
 }

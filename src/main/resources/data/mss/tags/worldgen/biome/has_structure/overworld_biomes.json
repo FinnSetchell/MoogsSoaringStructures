@@ -57,9 +57,5 @@
       "id": "#c:in_overworld",
       "required": false
     },
-    {
-      "id": "#forge:is_overworld",
-      "required": false
-    }
   ]
 }

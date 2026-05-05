@@ -1,13 +1,5 @@
 {
   "values": [
     "minecraft:cherry_grove",
-    {
-      "id": "#c:cherry_grove",
-      "required": false
-    },
-    {
-      "id": "#forge:is_cherry_grove",
-      "required": false
-    }
   ]
 }

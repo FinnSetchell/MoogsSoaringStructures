@@ -13,9 +13,5 @@
       "id": "#c:jungle",
       "required": false
     },
-    {
-      "id": "#forge:is_jungle",
-      "required": false
-    }
   ]
 }
