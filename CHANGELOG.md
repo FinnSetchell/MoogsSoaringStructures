@@ -12,6 +12,7 @@
 - Overhauled all loot tables to have better items, better variety, actually worth looting
 - Removed unnecessary terrain checks from islands
 - Improved biome tags
+- prevented all structures from generating within 250 blocks of world origin
 
 ### Fixed
 - Fixed several structures breaking on older 1.21.x versions
