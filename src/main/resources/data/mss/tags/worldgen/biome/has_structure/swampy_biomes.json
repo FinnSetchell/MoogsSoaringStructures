@@ -1,10 +1,6 @@
 {
   "values": [
     {
-      "id": "#minecraft:is_swamp",
-      "required": false
-    },
-    {
       "id": "byg:bayou",
       "required": false
     },
