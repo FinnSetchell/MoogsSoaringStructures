@@ -15,8 +15,7 @@
 - prevented all structures from generating within 250 blocks of world origin
 
 ### Fixed
-- Fixed several structures breaking on older 1.21.x versions
-- Fixed a corrupt muddy water hole structure
+- Fixed 5 corrupted structure nbt's
 - Removed unused files
 
 ---
