@@ -8,7 +8,8 @@
         "location": "mss:1_21_9/arena/arena_2",
         "locations": {
           "1.21-1.21.8": "mss:arena/arena_2",
-          "1.21.9-1.21.11": "mss:1_21_9/arena/arena_2"
+          "1.21.9-1.21.11": "mss:1_21_9/arena/arena_2",
+          "26.1-26.1.2": "mss:1_21_9/arena/arena_2"
         },
         "projection": "rigid",
         "processors": "minecraft:empty"

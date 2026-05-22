@@ -9,7 +9,8 @@
         "location": "mss:1_21_9/large_tower",
         "locations": {
           "1.21-1.21.8": "mss:large_tower",
-          "1.21.9-1.21.11": "mss:1_21_9/large_tower"
+          "1.21.9-1.21.11": "mss:1_21_9/large_tower",
+          "26.1-26.1.2": "mss:1_21_9/large_tower"
         },
         "projection": "rigid",
         "processors": "minecraft:empty"

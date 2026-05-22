@@ -9,7 +9,8 @@
         "location": "mss:1_21_9/taiga",
         "locations": {
           "1.21-1.21.8": "mss:taiga",
-          "1.21.9-1.21.11": "mss:1_21_9/taiga"
+          "1.21.9-1.21.11": "mss:1_21_9/taiga",
+          "26.1-26.1.2": "mss:1_21_9/taiga"
         },
         "projection": "rigid",
         "processors": "minecraft:empty"
