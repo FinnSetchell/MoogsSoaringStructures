@@ -165,7 +165,6 @@ publishMods {
         projectId = (project.findProperty('datapackCurseforgeProjectId') ?: '')
         file = tasks.named('buildDatapack').flatMap { it.archiveFile }
         displayName = "MSS Config Pack ${project.version}-${mcVersion}"
-        modLoaders.set([])
         announcementTitle = "Download the Config Pack on CurseForge"
         serverRequired = false
         minecraftVersionRange {
