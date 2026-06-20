@@ -4,7 +4,8 @@
 
 ## [2.1.3] - 2026-05-22
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
+### Fixed
+- bogged entity equipment shape in arena_3 - was using equipment compound (1.21.5+ shape), now uses ArmorItems/HandItems lists per the 1.21 target
 
 ---
 
