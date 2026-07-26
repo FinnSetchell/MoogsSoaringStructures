@@ -1,0 +1,38 @@
+# v2 publish manifest — FinnSetchell/MoogsSoaringStructures
+# Lives on the DEFAULT branch (1.21-datapack) only; every publish branch reads it from here.
+# Schema per release-actions docs/v2-contracts.md.
+schema: 1
+mod:
+  id: mss
+  displayName: "Moog's Soaring Structures"
+  environments: [Server]   # live-verified 2026-07-26: CF files carry Server; MR server_side=required, client_side=unsupported
+  name: MoogsSoaringStructures
+  validate: true
+platforms:
+  curseforge: { projectId: 1040210, slug: mss-moogs-soaring-structures }   # CF /mods API 403 — verified via the public files endpoint
+  modrinth:   { projectId: RJCLIx7k, slug: mss-moogs-soaring-structures }  # live-verified 2026-07-26
+discord:
+  embedColor: "#14822d"
+  avatarUrl: "https://media.forgecdn.net/avatars/thumbnails/1017/780/64/64/638544186354409472.png"
+  bannerUrl: "https://www.bisecthosting.com/images/CF/Moogs_Soaring_Structure/BH_MSS_header.webp"
+  thumbnailUrl: "https://media.forgecdn.net/avatars/thumbnails/1017/780/64/64/638544186354409472.png"  # square 64px (same as avatar)
+  pingDefault: true
+# Required dependencies (live-verified against the newest Modrinth version 2026-07-26).
+dependencies:
+  - { modrinth: 1oUDhxuy, curseforge: moogs-structure-lib, type: required }
+artifacts:
+  - type: universal-jar
+  # CurseForge only — no Modrinth project exists for this config pack.
+  - type: config-pack
+    platforms:
+      curseforge: { projectId: 1080238 }   # live: MoogsSoaringStructures-ConfigPack-*.zip
+    includeAlpha: false
+targets:
+  - branch: 1.20-datapack
+    mc: { start: "1.20", end: "1.20.6" }
+    java: 21
+    displaySuffix: "[UNIVERSAL]"
+  - branch: 1.21-datapack
+    mc: { start: "1.21", end: "26.2" }   # fleet standard for universal 1.21 targets
+    java: 21
+    displaySuffix: "[UNIVERSAL]"
