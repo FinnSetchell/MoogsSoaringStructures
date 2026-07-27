@@ -10,7 +10,7 @@
         "locations": {
           "1.21-1.21.8": "mss:desert_pyramid",
           "1.21.9-1.21.11": "mss:1_21_9/desert_pyramid",
-          "26.1-26.1.2": "mss:1_21_9/desert_pyramid"
+          "26.1-26.2": "mss:1_21_9/desert_pyramid"
         },
         "projection": "rigid",
         "processors": "minecraft:empty"
