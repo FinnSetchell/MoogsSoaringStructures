@@ -18,6 +18,7 @@
 - Trees are now spread more evenly instead of sometimes clustering together, and share a single toggle and spacing slider in Moog's Structure Lib's config screen
 - The chest at the top of the castle tower has slightly toned-down loot to better match how easy it is to reach
 - Barrels that form part of the white house's walls no longer hold loot
+- The large tower and white house use leaves instead of green wool in their natural areas
 
 ### Fixed
 - The arena's vaults now open with trial keys and give rewards, and its trial spawners have their own arena loot
