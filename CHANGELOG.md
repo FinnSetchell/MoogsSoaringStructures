@@ -17,6 +17,7 @@
 - The chest at the top of the castle tower has slightly toned-down loot to better match how easy it is to reach
 - Barrels that form part of the white house's walls no longer hold loot
 - The large tower and white house use leaves instead of green wool in their natural areas
+- Now needs Moog's Structure Lib 3.0.0 or newer
 
 ### Fixed
 - Villagers in the white house and diorite house now offer proper trades
