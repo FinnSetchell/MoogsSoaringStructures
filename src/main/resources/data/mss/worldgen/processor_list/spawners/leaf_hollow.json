@@ -1,0 +1,16 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:waterlogging_fix_processor"
+    },
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:pillager",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

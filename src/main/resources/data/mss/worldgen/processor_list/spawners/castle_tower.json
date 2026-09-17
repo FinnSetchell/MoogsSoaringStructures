@@ -1,0 +1,13 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:skeleton",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
