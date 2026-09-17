@@ -1,0 +1,21 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:pillager",
+          "weight": 1
+        },
+        {
+          "entity": "minecraft:vex",
+          "weight": 1
+        },
+        {
+          "entity": "minecraft:evoker",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

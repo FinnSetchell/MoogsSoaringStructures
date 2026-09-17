@@ -1,0 +1,23 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:bogged",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "processor_type": "moogs_structures:trial_spawner_randomizing_processor",
+      "normal_config": "mss:arena/normal",
+      "ominous_config": "mss:arena/ominous"
+    },
+    {
+      "processor_type": "moogs_structures:vault_randomizing_processor",
+      "loot_table": "mss:arena/vault",
+      "ominous_loot_table": "mss:arena/vault_ominous"
+    }
+  ]
+}

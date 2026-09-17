@@ -1,0 +1,21 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:wither_skeleton",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:piglin_brute",
+          "weight": 2
+        },
+        {
+          "entity": "minecraft:skeleton",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
