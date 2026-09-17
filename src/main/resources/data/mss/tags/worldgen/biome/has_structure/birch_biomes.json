@@ -4,6 +4,10 @@
     "minecraft:old_growth_birch_forest",
     "minecraft:forest",
     {
+      "id": "minecraft:dappled_forest",
+      "required": false
+    },
+    {
       "id": "byg:seasonal_birch_forest",
       "required": false
     },
