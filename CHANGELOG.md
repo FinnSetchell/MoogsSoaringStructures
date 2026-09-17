@@ -2,17 +2,28 @@
 
 ---
 
-## [2.1.4] - 2026-06-21
+## [2.2.0] - 2026-09-17
+
+### Added
+- Every structure apart from the trees now has a working Preview button in Moog's Structure Lib's config screen
+- Now supports Minecraft 26.2 and 26.3
+- Structures can now generate in the new dappled forest biome
+- A glow item frame now decorates the desert pyramid
+- Decorated pots in the desert pyramid, jungle, mangrove, muddy water hole, small tower, taiga and volcano now hold loot that fits where they're found
 
 ### Changed
-- mc 26.2 support
-
----
-
-## [2.1.3] - 2026-05-22
+- Villagers, pillagers and the arena's skeleton archers are now rolled fresh every time a structure generates, instead of every copy being identical
+- Monster spawners now pick their mob each time a structure generates, and modpacks can change which mobs each structure's spawners use
+- A few spawners that never spawned anything, in the arena, muddy water hole and red sand, are now active
+- Trees are now spread more evenly instead of sometimes clustering together, and share a single toggle and spacing slider in Moog's Structure Lib's config screen
+- The chest at the top of the castle tower has slightly toned-down loot to better match how easy it is to reach
 
 ### Fixed
-- bogged entity equipment shape in arena_3 - was using equipment compound (1.21.5+ shape), now uses ArmorItems/HandItems lists per the 1.21 target
+- The arena's vaults now open with trial keys and give rewards, and its trial spawners have their own arena loot
+- The mod now loads on Minecraft 26.1.2 and newer
+- Villagers in the white house and diorite house now offer proper trades
+- The trees at the large tower, white house and diorite house have their full leaves again
+- Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
 
 ---
 
@@ -20,12 +31,6 @@
 
 ### Fixed
 - Versioned structures now have a defined path for Minecraft 26.1–26.1.2, so the game stops logging "no version mapping matched" warnings and no longer falls back to an older structure template.
-
----
-
-## [2.1.1] - 2026-05-05
-
-_Pending. Update this header date and replace this line with the actual changes before tagging._
 
 ---
 
