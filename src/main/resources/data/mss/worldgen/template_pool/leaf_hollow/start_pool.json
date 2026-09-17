@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:leaf_hollow",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_5/leaf_hollow",
+        "locations": {
+          "1.21-1.21.4": "mss:1_21_0/leaf_hollow",
+          "1.21.5-26.3": "mss:1_21_5/leaf_hollow"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
       }
     }
   ]

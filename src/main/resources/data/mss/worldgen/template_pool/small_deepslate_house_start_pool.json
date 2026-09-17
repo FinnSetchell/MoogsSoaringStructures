@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "location": "mss:small_deepslate_house",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_4/small_deepslate_house",
+        "locations": {
+          "1.21-1.21.3": "mss:1_21_0/small_deepslate_house",
+          "1.21.4-26.3": "mss:1_21_4/small_deepslate_house"
+        },
+        "processors": "mss:spawners/small_deepslate_house",
+        "projection": "rigid"
       }
     }
   ]

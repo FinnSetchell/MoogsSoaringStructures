@@ -5,10 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "location": "mss:tree_7",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_0/tree_7",
+        "locations": {
+          "1.21-26.3": "mss:1_21_0/tree_7"
+        },
         "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "projection": "rigid"
       }
     }
   ]

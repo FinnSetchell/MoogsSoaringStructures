@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:mangrove",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_4/mangrove",
+        "locations": {
+          "1.21-1.21.3": "mss:1_21_0/mangrove",
+          "1.21.4-26.3": "mss:1_21_4/mangrove"
+        },
+        "processors": "mss:spawners/mangrove",
+        "projection": "rigid"
       }
     }
   ]

@@ -5,10 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:jungle_south",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_0/jungle_south",
+        "locations": {
+          "1.21-26.3": "mss:1_21_0/jungle_south"
+        },
+        "processors": "mss:spawners/jungle_south",
+        "projection": "rigid"
       }
     }
   ]

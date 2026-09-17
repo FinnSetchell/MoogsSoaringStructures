@@ -8,12 +8,12 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "location": "mss:1_21_9/desert_pyramid",
         "locations": {
-          "1.21-1.21.8": "mss:desert_pyramid",
-          "1.21.9-1.21.11": "mss:1_21_9/desert_pyramid",
-          "26.1-26.2": "mss:1_21_9/desert_pyramid"
+          "1.21-1.21.4": "mss:1_21_0/desert_pyramid",
+          "1.21.5-1.21.8": "mss:1_21_5/desert_pyramid",
+          "1.21.9-26.3": "mss:1_21_9/desert_pyramid"
         },
-        "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "mss:spawners/desert_pyramid",
+        "projection": "rigid"
       }
     }
   ]

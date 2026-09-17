@@ -4,10 +4,13 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:arena/arena_12",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_0/arena/arena_12",
+        "locations": {
+          "1.21-26.3": "mss:1_21_0/arena/arena_12"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
       }
     }
   ]

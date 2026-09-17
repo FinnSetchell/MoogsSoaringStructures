@@ -7,12 +7,12 @@
         "element_type": "moogs_structures:versioned_single_pool_element",
         "location": "mss:1_21_9/arena/arena_4",
         "locations": {
-          "1.21-1.21.8": "mss:arena/arena_4",
-          "1.21.9-1.21.11": "mss:1_21_9/arena/arena_4",
-          "26.1-26.2": "mss:1_21_9/arena/arena_4"
+          "1.21-1.21.4": "mss:1_21_0/arena/arena_4",
+          "1.21.5-1.21.8": "mss:1_21_5/arena/arena_4",
+          "1.21.9-26.3": "mss:1_21_9/arena/arena_4"
         },
-        "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "mss:spawners/arena",
+        "projection": "rigid"
       }
     }
   ]

@@ -5,10 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "location": "mss:calcite_house",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_0/calcite_house",
+        "locations": {
+          "1.21-26.3": "mss:1_21_0/calcite_house"
+        },
         "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "projection": "rigid"
       }
     }
   ]

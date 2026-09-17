@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "location": "mss:palm_island",
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_21_5/palm_island",
+        "locations": {
+          "1.21-1.21.4": "mss:1_21_0/palm_island",
+          "1.21.5-26.3": "mss:1_21_5/palm_island"
+        },
         "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "projection": "rigid"
       }
     }
   ]
