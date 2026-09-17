@@ -1,21 +1,19 @@
 {
   "name": "mss:small_oak_house_start_pool",
-
   "fallback": "minecraft:empty",
-
   "elements": [
     {
-
       "weight": 1,
       "element": {
-
-        "location": "mss:small_oak_house",
-
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_20_5/small_oak_house",
+        "locations": {
+          "1.20-1.20.2": "mss:1_20_0/small_oak_house",
+          "1.20.3-1.20.4": "mss:1_20_3/small_oak_house",
+          "1.20.5-1.20.6": "mss:1_20_5/small_oak_house"
+        },
         "processors": "minecraft:empty",
-
-        "projection": "rigid",
-
-        "element_type": "minecraft:single_pool_element"
+        "projection": "rigid"
       }
     }
   ]

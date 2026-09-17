@@ -5,10 +5,16 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:volcano",
-        "processors": "mss:waterlogging_fix_processor"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_20_5/volcano",
+        "locations": {
+          "1.20-1.20.1": "mss:1_20_0/volcano",
+          "1.20.2": "mss:1_20_2/volcano",
+          "1.20.3-1.20.4": "mss:1_20_3/volcano",
+          "1.20.5-1.20.6": "mss:1_20_5/volcano"
+        },
+        "processors": "mss:spawners/volcano",
+        "projection": "rigid"
       }
     }
   ]

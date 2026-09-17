@@ -5,10 +5,16 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:desert_pyramid",
-        "processors": "mss:waterlogging_fix_processor"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_20_5/desert_pyramid",
+        "locations": {
+          "1.20-1.20.1": "mss:1_20_0/desert_pyramid",
+          "1.20.2": "mss:1_20_2/desert_pyramid",
+          "1.20.3-1.20.4": "mss:1_20_3/desert_pyramid",
+          "1.20.5-1.20.6": "mss:1_20_5/desert_pyramid"
+        },
+        "processors": "mss:spawners/desert_pyramid",
+        "projection": "rigid"
       }
     }
   ]

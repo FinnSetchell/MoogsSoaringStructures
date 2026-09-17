@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:red_sand",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_20_5/red_sand",
+        "locations": {
+          "1.20-1.20.4": "mss:1_20_0/red_sand",
+          "1.20.5-1.20.6": "mss:1_20_5/red_sand"
+        },
+        "processors": "mss:spawners/red_sand",
+        "projection": "rigid"
       }
     }
   ]

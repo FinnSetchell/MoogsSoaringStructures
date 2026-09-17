@@ -1,21 +1,17 @@
 {
   "name": "mss:tree_2_start_pool",
-
   "fallback": "minecraft:empty",
-
   "elements": [
     {
-
       "weight": 1,
       "element": {
-
-        "location": "mss:tree_2",
-
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_20_0/tree_2",
+        "locations": {
+          "1.20-1.20.6": "mss:1_20_0/tree_2"
+        },
         "processors": "minecraft:empty",
-
-        "projection": "rigid",
-
-        "element_type": "minecraft:single_pool_element"
+        "projection": "rigid"
       }
     }
   ]

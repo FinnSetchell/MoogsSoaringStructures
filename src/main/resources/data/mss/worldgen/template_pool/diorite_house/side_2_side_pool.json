@@ -5,10 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "mss:diorite_house_side_2",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "location": "mss:1_20_5/diorite_house_side_2",
+        "locations": {
+          "1.20-1.20.4": "mss:1_20_0/diorite_house_side_2",
+          "1.20.5-1.20.6": "mss:1_20_5/diorite_house_side_2"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid"
       }
     }
   ]
