@@ -35,6 +35,7 @@
   ],
   "placement": {
     "type": "moogs_structures:advanced_random_spread",
+    "frequency": 0.6,
     "salt": 731846205,
     "spacing": 58,
     "separation": 29,

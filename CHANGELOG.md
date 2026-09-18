@@ -20,6 +20,7 @@
 - Barrels that form part of the white house's walls no longer hold loot
 - The large tower and white house use leaves instead of green wool in their natural areas
 - Now needs Moog's Structure Lib 3.0.0 or newer
+- Trees, calcite houses, small ponds, nether portals, leaf hollows, small oak houses, castle ruins, small towers and castle towers generate less often, so the world feels less crowded
 
 ### Fixed
 - The arena's vaults now open with trial keys and give rewards, and its trial spawners have their own arena loot
