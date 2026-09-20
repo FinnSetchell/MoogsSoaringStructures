@@ -2,7 +2,7 @@
 
 ---
 
-## [2.2.0] - 2026-09-17
+## [2.2.0] - 2026-09-20
 
 ### Added
 - Every structure apart from the trees now has a working Preview button in Moog's Structure Lib's config screen
