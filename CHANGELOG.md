@@ -4,6 +4,10 @@
 
 ## [2.2.0] - 2026-09-17
 
+If you are up for a challenge, try out the arena with bad omen!
+
+![ominous](https://i.moogsmods.com/images/34bff40c3b3b4bef9d5b05ea451776d9.png)
+
 ### Added
 - Every structure apart from the trees now has a working Preview button in Moog's Structure Lib's config screen
 - Now supports Minecraft 26.2 and 26.3
@@ -26,7 +30,7 @@
 - The arena's trial spawners now run a couple of waves of skeletons before usually handing over a trial key, and its vaults open with those keys for arena-only rewards
 - The mod now loads on Minecraft 26.1.2 and newer
 - Villagers in the white house and diorite house now offer proper trades
-- The trees at the large tower, white house and diorite house have their full leaves again
+- The trees at the arena, large tower, white house and diorite house have their full leaves again
 - Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
 
 ---
