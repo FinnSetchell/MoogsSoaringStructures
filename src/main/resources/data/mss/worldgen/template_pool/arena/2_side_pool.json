@@ -11,7 +11,7 @@
           "1.20.3-1.20.4": "mss:1_20_3/arena/arena_2",
           "1.20.5-1.20.6": "mss:1_20_5/arena/arena_2"
         },
-        "processors": "minecraft:empty",
+        "processors": "mss:spawners/arena",
         "projection": "rigid"
       }
     }

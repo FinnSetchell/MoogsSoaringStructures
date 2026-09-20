@@ -23,7 +23,7 @@
 
 ### Fixed
 - Villagers in the white house and diorite house now offer proper trades
-- The trees at the large tower, white house and diorite house have their full leaves again
+- The trees at the arena, large tower, white house and diorite house have their full leaves again
 - Every structure has been rebuilt for each Minecraft version it supports, fixing a range of small visual and loading problems
 
 ---
