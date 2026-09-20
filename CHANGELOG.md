@@ -23,7 +23,7 @@
 - Trees, calcite houses, small ponds, nether portals, leaf hollows, small oak houses, castle ruins, small towers and castle towers generate less often, so the world feels less crowded
 
 ### Fixed
-- The arena's vaults now open with trial keys and give rewards, and its trial spawners have their own arena loot
+- The arena's trial spawners now run a couple of waves of skeletons before usually handing over a trial key, and its vaults open with those keys for arena-only rewards
 - The mod now loads on Minecraft 26.1.2 and newer
 - Villagers in the white house and diorite house now offer proper trades
 - The trees at the large tower, white house and diorite house have their full leaves again
