@@ -133,7 +133,8 @@
             {
               "function": "minecraft:enchant_with_levels",
 
-              "levels": 10
+              "levels": 10,
+              "treasure": true
             }
           ]
         }
@@ -168,7 +169,8 @@
                 "type": "minecraft:uniform",
                 "min": 15,
                 "max": 25
-              }
+              },
+              "treasure": true
             }
           ]
         },

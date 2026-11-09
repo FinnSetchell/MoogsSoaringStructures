@@ -184,7 +184,8 @@
                 "type": "minecraft:uniform",
                 "min": 10,
                 "max": 20
-              }
+              },
+              "treasure": true
             }
           ]
         },
