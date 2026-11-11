@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "mss:arena/trial_spawner/equipment"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "enchantments": {
+                "minecraft:power": 1.0
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ],
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "add": false,
+            "enchantments": {
+              "minecraft:power": 1
+            }
+          },
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "enchantments": {
+                "minecraft:punch": 1.0
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ],
+          "modifier": {
+            "type": "minecraft:set_enchantments",
+            "add": false,
+            "enchantments": {
+              "minecraft:punch": 1
+            }
+          },
+          "name": "minecraft:bow"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "mss:arena/trial_spawner/equipment_ranged"
+}
