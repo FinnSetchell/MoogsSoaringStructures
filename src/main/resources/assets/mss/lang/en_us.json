@@ -5,5 +5,18 @@
   "mss.releases": "GitHub Releases",
   "mss.kofi": "Ko-fi",
   "mss.curseforge": "CurseForge",
-  "mss.modrinth": "Modrinth"
+  "mss.modrinth": "Modrinth",
+  "filled_map.mss.arena_map": "Arena Map",
+  "filled_map.mss.volcano_map": "Volcano Map",
+  "filled_map.mss.white_house_map": "White House Map",
+  "filled_map.mss.castle_ruin_map": "Castle Ruin Map",
+  "filled_map.mss.red_sand_map": "Red Sand Map",
+  "filled_map.mss.large_tower_map": "Large Tower Map",
+  "filled_map.mss.leaf_hollow_map": "Leaf Hollow Map",
+  "filled_map.mss.diorite_house_map": "Diorite House Map",
+  "filled_map.mss.castle_tower_map": "Castle Tower Map",
+  "filled_map.mss.desert_pyramid_map": "Desert Pyramid Map",
+  "filled_map.mss.nether_portal_island_map": "Nether Portal Island Map",
+  "filled_map.mss.taiga_island_map": "Taiga Island Map",
+  "filled_map.mss.muddy_water_hole_map": "Muddy Water Hole Map"
 }
