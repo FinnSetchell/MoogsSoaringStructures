@@ -167,6 +167,127 @@
           }
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mss:on_red_sand_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mss.red_sand_map",
+                "fallback": "Red Sand Map"
+              },
+              "target": "item_name"
+            }
+          ],
+          "modifier": [
+            {
+              "type": "minecraft:set_item",
+              "item": "minecraft:buried_treasure_map"
+            },
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#mss:on_red_sand_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 2,
+              "skip_existing_chunks": false
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mss.red_sand_map",
+                "fallback": "Red Sand Map"
+              },
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "mss:on_desert_pyramid_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 3,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mss.desert_pyramid_map",
+                "fallback": "Desert Pyramid Map"
+              },
+              "target": "item_name"
+            }
+          ],
+          "modifier": [
+            {
+              "type": "minecraft:set_item",
+              "item": "minecraft:desert_pyramid_map"
+            },
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#mss:on_desert_pyramid_maps",
+              "decoration": "red_x",
+              "zoom": 2,
+              "search_radius": 3,
+              "skip_existing_chunks": false
+            },
+            {
+              "type": "minecraft:filtered",
+              "item_filter": {
+                "predicates": {
+                  "minecraft:map_id": {}
+                }
+              },
+              "on_fail": {
+                "type": "minecraft:discard"
+              }
+            },
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.mss.desert_pyramid_map",
+                "fallback": "Desert Pyramid Map"
+              },
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 19
+        }
+      ]
     }
   ]
 }
