@@ -4,6 +4,10 @@
 
 ## [2.2.1]
 
+### Added
+- Chests on the floating islands can now hold maps to 13 other places, from the Arena and the Volcano to the Muddy Water Hole
+  - The blank map in the Arena's dungeon chests is now a map to the Volcano
+
 ### Fixed
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
 - Fixed the mod not loading on NeoForge 1.20.5
