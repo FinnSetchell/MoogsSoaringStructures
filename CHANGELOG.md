@@ -4,8 +4,13 @@
 
 ## [2.2.1]
 
+### Added
+- Chests on the floating islands can now hold maps to 13 other places, from the Arena and the Volcano to the Muddy Water Hole
+  - The blank map in the Arena's dungeon chests is now a map to the Volcano
+
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
+- The Muddy Water Hole now generates in swamps on Forge for Minecraft 1.21 and on early Forge builds for 1.21.1
 
 ---
 
