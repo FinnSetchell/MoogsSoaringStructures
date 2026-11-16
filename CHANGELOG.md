@@ -12,6 +12,9 @@
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
 - The Muddy Water Hole now generates in swamps on Forge for Minecraft 1.21 and on early Forge builds for 1.21.1
 
+### Changed
+- Now requires Moog's Structure Lib 4.0.0 or newer
+
 ---
 
 ## [2.2.0] - 2026-09-20
