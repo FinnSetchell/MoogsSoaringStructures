@@ -12,6 +12,9 @@
 - Enchanted loot in some chests can now roll treasure enchantments such as Mending, as it does on newer versions
 - Fixed the mod not loading on NeoForge 1.20.5
 
+### Changed
+- Now requires Moog's Structure Lib 4.0.0 or newer
+
 ---
 
 ## [2.2.0] - 2026-09-20
