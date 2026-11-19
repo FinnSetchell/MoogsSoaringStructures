@@ -126,7 +126,7 @@
               "function": "minecraft:exploration_map",
               "destination": "mss:on_red_sand_maps",
               "decoration": "red_x",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 2,
               "skip_existing_chunks": false
             },
@@ -149,7 +149,7 @@
               "function": "minecraft:exploration_map",
               "destination": "mss:on_desert_pyramid_maps",
               "decoration": "red_x",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 3,
               "skip_existing_chunks": false
             },
