@@ -313,7 +313,7 @@
               "function": "minecraft:exploration_map",
               "destination": "mss:on_muddy_water_hole_maps",
               "decoration": "swamp_hut",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 2,
               "skip_existing_chunks": false
             },
@@ -335,7 +335,7 @@
               "type": "minecraft:exploration_map",
               "destination": "#mss:on_muddy_water_hole_maps",
               "decoration": "swamp_hut",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 2,
               "skip_existing_chunks": false
             },

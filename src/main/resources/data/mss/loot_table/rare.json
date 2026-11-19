@@ -558,7 +558,7 @@
               "function": "minecraft:exploration_map",
               "destination": "mss:on_arena_maps",
               "decoration": "mansion",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 1,
               "skip_existing_chunks": false
             },
@@ -580,7 +580,7 @@
               "type": "minecraft:exploration_map",
               "destination": "#mss:on_arena_maps",
               "decoration": "mansion",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 1,
               "skip_existing_chunks": false
             },

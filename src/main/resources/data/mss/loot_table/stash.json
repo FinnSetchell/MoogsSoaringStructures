@@ -414,7 +414,7 @@
               "function": "minecraft:exploration_map",
               "destination": "mss:on_diorite_house_maps",
               "decoration": "red_x",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 1,
               "skip_existing_chunks": false
             },
@@ -436,7 +436,7 @@
               "type": "minecraft:exploration_map",
               "destination": "#mss:on_diorite_house_maps",
               "decoration": "red_x",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 1,
               "skip_existing_chunks": false
             },
@@ -470,7 +470,7 @@
               "function": "minecraft:exploration_map",
               "destination": "mss:on_nether_portal_maps",
               "decoration": "red_x",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 2,
               "skip_existing_chunks": false
             },
@@ -492,7 +492,7 @@
               "type": "minecraft:exploration_map",
               "destination": "#mss:on_nether_portal_maps",
               "decoration": "red_x",
-              "zoom": 2,
+              "zoom": 3,
               "search_radius": 2,
               "skip_existing_chunks": false
             },
